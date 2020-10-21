@@ -6,7 +6,7 @@ const config = {
     deviceName: 'emulator-5554',
     appiumVersion: '1.18.1',
     automationName: 'UiAutomator2',
-    app: '/Users/vetal04075/job/react-native/AppiumDemo/android/app/build/outputs/apk/debug/app-debug.apk'
+    app: './android/app/build/outputs/apk/debug/app-debug.apk'
 };
 const driver = wd.promiseChainRemote('localhost', PORT);
 beforeAll(async () => {
