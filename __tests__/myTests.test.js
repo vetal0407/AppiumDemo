@@ -14,7 +14,7 @@ beforeAll(async () => {
     await driver.sleep(10000);
 }) // Sometime for the app to load
 test('appium renders', async () => {
-    expect(await driver.hasElementByAccessibilityId('alertButton')).toBe(true);
+    expect(await driver.hasElementByAccessibilityId('alertButto')).toBe(true);
     const element = await driver.elementByAccessibilityId('alertButton')
     await element.click()
     expect(await driver.hasElementByAccessibilityId('notHere')).toBe(false);
