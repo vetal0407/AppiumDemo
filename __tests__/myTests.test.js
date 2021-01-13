@@ -4,7 +4,6 @@ const PORT = 4723;
 const config = {
     automationName: "UiAutomator2",
     platformName: 'Android',
-    deviceName: 'emulator',
     appiumVersion: '1.18.1',
     app: '/Users/vagrant/git/android/app/build/outputs/apk/debug/app-debug.apk'
 };
