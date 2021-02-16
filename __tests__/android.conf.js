@@ -1,6 +1,6 @@
 exports.config = {
   services: ['appium'],
-  port: 4723,
+  port: 10000,
   runner: 'local',
   specs: ['./__tests__/test_cases/**/*.js'],
   capabilities: [
