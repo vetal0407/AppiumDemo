@@ -8,6 +8,7 @@ exports.config = {
       maxInstances: 1,
       appiumVersion: '1.18.1',
       platformName: 'Android',
+      deviceName: 'emulator-5554',
       app: '/Users/vagrant/git/android/app/build/outputs/apk/debug/app-debug.apk',
       automationName: 'UiAutomator2',
     },
