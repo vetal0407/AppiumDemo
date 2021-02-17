@@ -20,6 +20,7 @@ exports.config = {
   connectionRetryCount: 3,
   framework: 'mocha',
   reporters: ['spec'],
+  ignoredWorkerServices: [],
   mochaOpts: {
     ui: 'bdd',
     timeout: 60000,
